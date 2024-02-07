@@ -1,0 +1,35 @@
+.cover {
+    height: 100vh;
+    background: url("../image/cover.jpg") no-repeat;
+    background-size: cover;
+    background-position: center ;
+  }
+
+.map {
+  background: #43c6e7;
+  border-radius: 50%;  
+}
+
+.detail h1, h3 {
+    color: #43c6e7;
+  }
+
+.see-similar {
+    border: 2px black;
+    border-radius: 50%;
+}
+
+@media only screen and (max-height: 1000px) {
+    .cover {
+      /* height: 70vh; */
+      background: url("image/cover.jpg") no-repeat;
+      background-size: cover;
+      background-position: center ;
+    }
+    
+    .link {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+  }
